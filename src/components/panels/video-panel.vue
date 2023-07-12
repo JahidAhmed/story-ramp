@@ -6,6 +6,7 @@
                 :src="config.src"
                 :width="config.width ? config.width : '100%'"
                 :height="config.height ? config.height : '500px'"
+                style="position: relative; left: 50%; transform: translateX(-50%)"
                 allowfullscreen
             ></iframe>
         </template>
@@ -17,16 +18,17 @@
                 :poster="config.thumbnailUrl"
                 :width="config.width ? config.width : '100%'"
                 :height="config.height ? config.height : '500px'"
+                style="position: relative; left: 50%; transform: translateX(-50%)"
                 controls
             >
                 <source :type="fileType" :src="config.src" />
-                <!-- add captions with transcript -->
+                <!-- add captions  -->
                 <track
                     kind="captions"
-                    :src="config.transcript"
+                    :src="config.caption"
                     :srclang="lang"
                     :label="langs[lang]"
-                    v-if="config.transcript"
+                    v-if="config.caption"
                 />
             </video>
             <!-- Optional: can also provide timestamps with <button data-cuepoint="[time]"> here -->
