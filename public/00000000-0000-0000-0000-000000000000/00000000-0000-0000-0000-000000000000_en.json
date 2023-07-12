@@ -93,6 +93,7 @@
                                 "type": "video",
                                 "title": "Overtime job",
                                 "videoType": "external",
+                                "transcript": "00000000-0000-0000-0000-000000000000/assets/en/video1-en.mp4.vtt",
                                 "src": "https://wet-boew.github.io/wet-boew-attachments/videos/video1-en.mp4"
                             }
                         },
@@ -102,6 +103,7 @@
                                 "type": "video",
                                 "title": "Overtime job",
                                 "videoType": "local",
+                                "transcript": "00000000-0000-0000-0000-000000000000/assets/en/video1-en.mp4.vtt",
                                 "src": "00000000-0000-0000-0000-000000000000/assets/en/video1-en.mp4"
                             }
                         }
@@ -139,6 +141,7 @@
                     "title": "Overtime job",
                     "videoType": "external",
                     "src": "https://wet-boew.github.io/wet-boew-attachments/videos/video1-en.mp4",
+                    "transcript": "00000000-0000-0000-0000-000000000000/assets/en/video1-en.mp4.vtt",
                     "height": 500
                 }
             ]
@@ -156,6 +159,7 @@
                     "title": "Overtime job",
                     "videoType": "local",
                     "src": "00000000-0000-0000-0000-000000000000/assets/en/video1-en.mp4",
+                    "transcript": "00000000-0000-0000-0000-000000000000/assets/en/video1-en.mp4.vtt",
                     "height": 500
                 }
             ]
